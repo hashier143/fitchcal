@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="body">
+            <div class="signature">fitchCal</div>
+            <div class="calcu-body">
+                <div class="top">
+                    <input type="text" class="screen" placeholder="0" readonly>
+                    <div onclick="reset()">C</div>
+                </div>
+                <div class="bottom">
+                    <div onclick="inputHere('1');">1</div>
+                    <div onclick="inputHere('2');">2</div>
+                    <div onclick="inputHere('3');">3</div>
+                    <div onclick="inputHere('/');">/</div>
+                    <div onclick="inputHere('4');">4</div>
+                    <div onclick="inputHere('5');">5</div>
+                    <div onclick="inputHere('6');">6</div>
+                    <div onclick="inputHere('*');">*</div>
+                    <div onclick="inputHere('7');">7</div>
+                    <div onclick="inputHere('8');">8</div>
+                    <div onclick="inputHere('9');">9</div>
+                    <div onclick="inputHere('-');">-</div>
+                    <div onclick="inputHere('0');">0</div>
+                    <div onclick="inputHere('.');">.</div>
+                    <div class="equal" onclick="solve();">=</div>
+                    <div onclick="inputHere('+');" class="add" >+</div>
+                </div>
+            </div>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
